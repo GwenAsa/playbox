@@ -30,8 +30,6 @@ The project started with a simple idea: using Wine and managing Windows games sh
 
 It is designed for people who want a more straightforward place to add games, install Windows programs, organize their library, and access the tools around their Wine environment.
 
-> **Repository note:** This starter currently contains the project documentation, visual identity, and screenshots. Add the PlayBox application source code and release packages before presenting it as the complete source repository.
-
 ## Features
 
 <table>
