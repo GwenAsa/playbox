@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">PlayBox — Windows games and apps on Linux</title>
+  <desc id="desc">A dark green gaming-inspired banner with the PlayBox logo, product name, tagline, and a stylized game library interface.</desc>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06170B"/>
+      <stop offset="0.55" stop-color="#082713"/>
+      <stop offset="1" stop-color="#03130D"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.15" cy="0.18" r="0.9">
+      <stop offset="0" stop-color="#19C653" stop-opacity="0.23"/>
+      <stop offset="1" stop-color="#19C653" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.82" cy="0.55" r="0.72">
+      <stop offset="0" stop-color="#0B9C79" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#0B9C79" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tileA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#159C3C"/>
+      <stop offset="1" stop-color="#087B64"/>
+    </linearGradient>
+    <linearGradient id="tileB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0C741F"/>
+      <stop offset="1" stop-color="#06451F"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="16"/>
+      <feOffset dy="16"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.38"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#B2FFC0" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="620" rx="34" fill="url(#base)"/>
+  <rect width="1600" height="620" rx="34" fill="url(#glowA)"/>
+  <rect width="1600" height="620" rx="34" fill="url(#glowB)"/>
+  <rect width="1600" height="620" rx="34" fill="url(#grid)"/>
+  <g opacity="0.16" fill="none" stroke="#5FE879" stroke-width="2">
+    <path d="M-80 470 480 0M80 660 720 20M860 700 1530 25M1080 670 1660 180"/>
+    <path d="M-40 525 570 15M930 640 1570 110" stroke-opacity="0.55"/>
+  </g>
+  <g transform="translate(104 108)">
+    <rect width="112" height="112" rx="28" fill="url(#tileA)" stroke="#8DFF72" stroke-opacity="0.5"/>
+    <path d="M34 80V30h24c16 0 25 9 25 24S74 78 58 78h-8" fill="none" stroke="#F4FFF6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M34 30v50" stroke="#F4FFF6" stroke-width="10" stroke-linecap="round"/>
+    <rect x="71" y="75" width="7" height="7" rx="2" fill="#8DFF72"/>
+    <rect x="82" y="75" width="7" height="7" rx="2" fill="#8DFF72" opacity="0.7"/>
+  </g>
+  <text x="104" y="310" fill="#F3FFF5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="100" font-weight="750" letter-spacing="-4">PlayBox</text>
+  <rect x="108" y="346" width="78" height="6" rx="3" fill="#8DFF72"/>
+  <text x="104" y="410" fill="#B5D8BC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="450">A gaming-first home for Windows games</text>
+  <text x="104" y="453" fill="#B5D8BC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="450">and applications on Linux.</text>
+  <g transform="translate(104 505)">
+    <rect width="166" height="42" rx="21" fill="#0E3C1D" stroke="#4ADD5F" stroke-opacity="0.7"/>
+    <circle cx="22" cy="21" r="5" fill="#8DFF72"/>
+    <text x="39" y="27" fill="#D7F8D9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="650" letter-spacing="1.3">VERSION 1.1.0</text>
+  </g>
+  <g transform="translate(850 78)" filter="url(#shadow)">
+    <rect x="0" y="0" width="650" height="460" rx="22" fill="#08120C" stroke="#3BBA50" stroke-opacity="0.65" stroke-width="2"/>
+    <path d="M22 0h606a22 22 0 0 1 22 22v42H0V22A22 22 0 0 1 22 0Z" fill="#101B13"/>
+    <circle cx="29" cy="31" r="6" fill="#FF6B67"/>
+    <circle cx="51" cy="31" r="6" fill="#F7C75D"/>
+    <circle cx="73" cy="31" r="6" fill="#62D77A"/>
+    <rect x="112" y="18" width="176" height="26" rx="13" fill="#1B2A1E"/>
+    <text x="131" y="36" fill="#9DB8A2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">PLAYBOX LIBRARY</text>
+    <g transform="translate(30 93)">
+      <rect width="250" height="210" rx="13" fill="url(#tileA)"/>
+      <rect x="16" y="16" width="218" height="142" rx="8" fill="#052C17" opacity="0.28"/>
+      <path d="M118 61v49m-24-25h48" stroke="#F5FFF5" stroke-width="10" stroke-linecap="round"/>
+      <text x="17" y="188" fill="#F5FFF5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">Add your first game</text>
+    </g>
+    <g transform="translate(302 93)">
+      <rect width="145" height="100" rx="10" fill="url(#tileB)"/>
+      <rect x="158" width="145" height="100" rx="10" fill="#0A6C25"/>
+      <rect y="112" width="145" height="100" rx="10" fill="#101A13" stroke="#263D2B"/>
+      <rect x="158" y="112" width="145" height="100" rx="10" fill="#0B7D29"/>
+      <g fill="none" stroke="#E9FFEA" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M73 24v39m-17-17 17 17 17-17M55 72h36"/>
+        <path d="M205 28h54m-54 21h54m-54 21h54"/>
+        <path d="M196 24h7v7h-7zM217 45h7v7h-7zM238 66h7v7h-7z" fill="#E9FFEA" stroke="none"/>
+        <circle cx="230" cy="162" r="20"/><path d="M230 148v28m-14-14h28"/>
+        <path d="M55 147h35m-35 20h35m-35 20h35"/>
+      </g>
+    </g>
+    <g transform="translate(30 330)">
+      <rect width="590" height="94" rx="12" fill="#111A13" stroke="#2A3C2C"/>
+      <text x="22" y="34" fill="#E5F6E7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="650">Your library. Your tools. One place.</text>
+      <text x="22" y="63" fill="#91AA96" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Install programs, import from Lutris, manage Wine tools.</text>
+      <rect x="475" y="24" width="88" height="42" rx="9" fill="#127D2B" stroke="#8DFF72" stroke-opacity="0.75"/>
+      <path d="M501 45h36m-18-18v36" stroke="#F4FFF5" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+  <path d="M0 590h1600" stroke="#8DFF72" stroke-opacity="0.35" stroke-width="2"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="158" height="28" viewBox="0 0 158 28" role="img" aria-label="Version 1.1.0">
+  <rect width="158" height="28" rx="6" fill="#102317" stroke="#2C773D"/>
+  <rect x="1" y="1" width="63" height="26" rx="5" fill="#164D29"/>
+  <text x="32" y="18" fill="#B9DCC0" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" font-weight="700" letter-spacing=".6">VERSION</text>
+  <text x="108" y="18" fill="#E9FFEA" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" font-weight="700">1.1.0</text>
+</svg>

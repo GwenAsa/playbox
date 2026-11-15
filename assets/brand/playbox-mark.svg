@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">PlayBox mark</title>
+  <desc id="desc">A geometric letter P inside a rounded green square.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18A34A"/>
+      <stop offset="0.55" stop-color="#087A43"/>
+      <stop offset="1" stop-color="#075C54"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="18"/>
+      <feOffset dy="14"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.32"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="#04140B"/>
+  <rect x="42" y="42" width="428" height="428" rx="98" fill="url(#bg)" filter="url(#shadow)"/>
+  <path d="M140 68h232c54 0 98 44 98 98v30c-74-54-157-76-248-66-61 7-112 31-160 69V166c0-54 44-98 98-98Z" fill="url(#shine)"/>
+  <path d="M177 365V145h104c62 0 101 35 101 91 0 57-39 92-101 92h-38" fill="none" stroke="#F4FFF6" stroke-width="47" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M177 145v220" fill="none" stroke="#F4FFF6" stroke-width="47" stroke-linecap="round"/>
+  <rect x="300" y="294" width="32" height="32" rx="8" fill="#8DFF72"/>
+  <rect x="344" y="294" width="32" height="32" rx="8" fill="#8DFF72" opacity="0.72"/>
+  <rect x="300" y="338" width="32" height="32" rx="8" fill="#8DFF72" opacity="0.72"/>
+  <rect x="344" y="338" width="32" height="32" rx="8" fill="#8DFF72" opacity="0.48"/>
+  <rect x="43" y="43" width="426" height="426" rx="97" fill="none" stroke="#8DFF72" stroke-opacity="0.45" stroke-width="2"/>
+</svg>
