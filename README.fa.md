@@ -131,14 +131,9 @@ PlayBox از اکوسیستم گیمینگ لینوکس استفاده می‌ک
 - [Wine](https://www.winehq.org/)
 - [Lutris](https://lutris.net/)
 
-## مجوز
-
-هنوز مجوزی به این مخزن اضافه نشده است. تا زمانی که صاحب پروژه مجوز مشخصی انتخاب و منتشر نکند، کد و محتوای پروژه باید **All Rights Reserved** در نظر گرفته شوند. بنابراین نباید فرض کرد که استفاده مجدد یا بازتوزیع آن آزاد است.
-
 ---
 
 <p align="center">
-  <img src="assets/brand/playbox-mark.svg" width="42" alt="نشان PlayBox" /><br />
   <strong>PlayBox</strong><br />
   <sub>یک محل برای مدیریت تجربه اجرای بازی‌ها و برنامه‌های ویندوزی در لینوکس.</sub>
 </p>
